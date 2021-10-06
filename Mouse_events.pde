@@ -18,7 +18,7 @@ void draw() {
   //Set up images randomly moving here
 }
 
-void mouseMoved() { // Move gray circle
+void mouseMoved() { // When the mouse is moved , get the distance of two objects and detemine whether the program should stop
   
   //Set up images moving along the mousehere
   if (dist(mouseX,mouseY,toddle_x,toddle_y)<5){
